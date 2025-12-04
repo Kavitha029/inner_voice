@@ -1,0 +1,14 @@
+{
+    "default_user": {
+        "name": "",
+        "age": "",
+        "contexts": [
+            "User: I've been feeling really overwhelmed lately...",
+            "InnerCompanion: I'm here with you... (temporary hiccup: Invalid argument provided to Gemini: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n])",
+            "InnerCompanion: I'm here with you... (temporary hiccup: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.)"
+        ],
+        "helpful_actions": [],
+        "last_session_summary": "",
+        "emotion_log": []
+    }
+}

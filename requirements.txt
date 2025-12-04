@@ -1,0 +1,8 @@
+streamlit>=1.22
+langchain>=0.0.400   # if failing, install latest LangChain
+openai
+faiss-cpu
+tiktoken
+python-dotenv
+requests
+transformers          # if you use a local model later
