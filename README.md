@@ -89,7 +89,8 @@ Logs detected emotions for basic emotional trend tracking within a session
 
 Usage
 Once the application is running:
-    Open the Streamlit app in your browser (typically shown in the terminal, for example http://localhost:8501).
+    Open the Streamlit app in your browser (typically shown in the terminal, for example Local URL: <http://localhost:8502>
+  Network URL: <http://192.168.31.31:8502>).
     (Optional) Enter basic information like your name or mood if your UI supports it.
     Type how you are feeling or what you are going through in the input box.
     Read the short responses, reflect, and continue the conversation at your own pace.
