@@ -1,8 +1,19 @@
 streamlit>=1.22
-langchain>=0.0.400   # if failing, install latest LangChain
-openai
-faiss-cpu
-tiktoken
+
+# LangChain core and integrations
+langchain>=0.1.0       # or latest stable
+langchain-core
+langchain-community
+langchain-ollama
+
+# Environment and HTTP
 python-dotenv
 requests
-transformers          # if you use a local model later
+
+# Optional: tokenization / embeddings / HF models (if you use them)
+tiktoken
+transformers
+faiss-cpu
+
+# Optional: direct Ollama Python client (if you want it)
+ollama
